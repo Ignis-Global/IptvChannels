@@ -1,0 +1,42 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "uploads"
+public_folder: "/uploads"
+
+publish_mode: simple
+
+collections:
+  - name: "settings"
+    label: "Website Settings"
+    files:
+      - name: "site"
+        label: "Main Website Content"
+        file: "content/site.json"
+        format: "json"
+        fields:
+          - { label: "Browser Title", name: "siteTitle", widget: "string" }
+          - { label: "Google Description", name: "metaDescription", widget: "text" }
+          - { label: "Business Name", name: "brandName", widget: "string" }
+          - { label: "Logo Tagline", name: "brandTagline", widget: "string" }
+          - { label: "Hero Small Text", name: "heroEyebrow", widget: "string" }
+          - { label: "Hero Headline", name: "heroTitle", widget: "string" }
+          - { label: "Hero Paragraph", name: "heroText", widget: "text" }
+          - { label: "WhatsApp Number Display", name: "whatsappNumberDisplay", widget: "string" }
+          - { label: "WhatsApp Link", name: "whatsappLink", widget: "string" }
+          - { label: "Telegram Display", name: "telegramDisplay", widget: "string" }
+          - { label: "Telegram Link", name: "telegramLink", widget: "string" }
+          - { label: "Email Address", name: "email", widget: "string" }
+          - { label: "Pricing Heading", name: "pricingHeading", widget: "string" }
+          - label: "Plans"
+            name: "plans"
+            widget: "list"
+            min: 4
+            max: 4
+            fields:
+              - { label: "Plan Name", name: "name", widget: "string" }
+              - { label: "Price", name: "price", widget: "string" }
+          - { label: "Support Hours", name: "supportHours", widget: "string" }
+          - { label: "Languages", name: "languages", widget: "string" }
+          - { label: "Footer Legal Notice", name: "legalNotice", widget: "text" }

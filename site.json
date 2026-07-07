@@ -1,0 +1,24 @@
+{
+  "siteTitle": "Iptv channels | Live TV, Movies & Sports",
+  "metaDescription": "Iptv channels premium landing page for live TV, movies and sports streaming plans.",
+  "brandName": "Iptv channels",
+  "brandTagline": "4K media",
+  "heroEyebrow": "Premium streaming access",
+  "heroTitle": "Live TV, Movies & Sports Without Limits",
+  "heroText": "Access thousands of live channels, movies and series in HD, FHD and 4K. No cable engineer, no long contracts, and activation in minutes.",
+  "whatsappNumberDisplay": "089 205 3696",
+  "whatsappLink": "https://wa.me/353892053696",
+  "telegramDisplay": "089 205 3696",
+  "telegramLink": "tel:+353892053696",
+  "email": "samcharlie974@gmail.com",
+  "pricingHeading": "Streaming Plans From &euro;20/month",
+  "plans": [
+    { "name": "1 Month", "price": "&euro;20" },
+    { "name": "3 Months", "price": "&euro;30" },
+    { "name": "6 Months", "price": "&euro;50" },
+    { "name": "12 Months", "price": "&euro;100" }
+  ],
+  "supportHours": "09:00 - 00:00 daily",
+  "languages": "EN / FR / AR",
+  "legalNotice": "By purchasing, customers agree that streaming availability and legal access may vary by country. This website template is intended for services with proper distribution rights. Copyright 2026 Iptv channels. All rights reserved."
+}
